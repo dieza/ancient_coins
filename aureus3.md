@@ -56,9 +56,7 @@ Authority <- factor(c(rep("Nerón", 12),rep("Galba", 2),rep("Vespasiano", 22),re
                       rep("Alejandro Severo", 2))) 
 ```
 
-<p class="text-center" style="background-color: aliceblue">
-This content is aligned center.
-</p>
+
 
 ### Data
 
