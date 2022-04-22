@@ -57,8 +57,7 @@ Authority <- factor(c(rep("Nerón", 12),rep("Galba", 2),rep("Vespasiano", 22),re
 ```
 
 
-
-### Data
+### Data 
 
 Now we put all this weights together
 
