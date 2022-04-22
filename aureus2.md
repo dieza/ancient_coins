@@ -2,6 +2,7 @@ Aureus boxplot
 ================
 Agustín Diez Castllo
 4/21/2022
+[![DOI](https://zenodo.org/badge/276396809.svg)](https://zenodo.org/badge/latestdoi/276396809)
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you
 execute code within the notebook, the results appear beneath the code.
