@@ -69,7 +69,8 @@ And we’re ready for our boxplot
 boxplot(weights~Authority,main="Imperial aureus histogram in Hispania by authorities")
 ```
 
-![](aureus2_files/figure-gfm/boxplot-1.png)<!-- --> That’s fine, but we
+![](aureus2_files/figure-gfm/boxplot-1.png)<!-- --> 
+That’s fine, but we
 want something more representative. But let me build a data frame first
 
 ``` r
@@ -85,7 +86,8 @@ p
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/violin0-1.png)<!-- --> Cool, but we want to
+![](aureus2_files/figure-gfm/violin0-1.png)<!-- --> 
+Cool, but we want to
 chronologically order the Authorities
 
 ``` r
@@ -95,8 +97,8 @@ p
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/Authorities-1.png)<!-- --> Not bad, but it
-will be cool to read the Authorities names.
+![](aureus2_files/figure-gfm/Authorities-1.png)<!-- --> 
+Not bad, but it will be cool to read the Authorities names.
 
 ``` r
 p<-p+ theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
@@ -105,8 +107,8 @@ p
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/readeable-1.png)<!-- --> Better, but how
-many aureus are in the sample?
+![](aureus2_files/figure-gfm/readeable-1.png)<!-- --> 
+Better, but how many aureus are in the sample?
 
 ``` r
 p<-p +
@@ -117,8 +119,8 @@ p
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/unnamed-chunk-1-1.png)<!-- --> Much better,
-but let see if there is someway to add the plain boxplot to this.
+![](aureus2_files/figure-gfm/unnamed-chunk-1-1.png)<!-- --> 
+Much better, but let see if there is someway to add the plain boxplot to this.
 
 ``` r
 p<-p+geom_boxplot(width=0.1)
@@ -127,8 +129,8 @@ p
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/violin+boxplot-1.png)<!-- --> OK, but the
-legend is not this useful
+![](aureus2_files/figure-gfm/violin+boxplot-1.png)<!-- --> 
+OK, but the legend is not this useful
 
 ``` r
 p+theme(legend.position="none")
@@ -136,7 +138,8 @@ p+theme(legend.position="none")
 
     ## Warning: Groups with fewer than two data points have been dropped.
 
-![](aureus2_files/figure-gfm/no%20legend-1.png)<!-- --> That’s all.
+![](aureus2_files/figure-gfm/no%20legend-1.png)<!-- --> 
+That’s all.
 
 The preview shows you a rendered HTML copy of the contents of the
 editor. Consequently, unlike *Knit*, *Preview* does not run any R code
